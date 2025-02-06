@@ -28,13 +28,22 @@
 
 }
 header{
+   position: fixed;
+   top:0;
+   left:50%;
+   transform: translateX(-50%);
  padding-bottom: 92px ;
  padding-top: 72px;
+ background-color: #fff;
+ border-bottom: 2px solid black;
 }
 .main-header{
  
  font-weight: 300;
  line-height: 1.2;
+}
+.main{
+   margin-top: 180px;
 }
 .btn{
     background-color: transparent;
