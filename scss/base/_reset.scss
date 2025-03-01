@@ -1,0 +1,26 @@
+:root {
+  --text-color: #626262;
+  --pre-title-color: #b4ad9e;
+  --axent: #03a9f4;
+  --white: #fff;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+input,
+button,
+a,
+img {
+  margin: 0;
+  padding: 0;
+}
