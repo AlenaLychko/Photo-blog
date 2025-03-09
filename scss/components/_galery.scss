@@ -1,0 +1,62 @@
+.main{
+   
+     margin-top: 180px;
+   
+   &__header{
+       font-weight: 300;
+ line-height: 1.2;
+  margin-bottom: 40px;
+   }
+   &__pretitle{
+      font-family: 'ubuntu', sans-serif;
+    line-height: 1.2;
+    font-weight: 300;
+    color: $pre-title-color;
+    margin-bottom: 32px;
+   }
+   &__btn{
+        background-color: transparent;
+    font-size: 14px;
+    border: 1px solid $text-color; 
+    padding: 20px 48px;/* 20-веръний=нижний  48=левый=правый*/
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+ /*margin: 0 auto; центрует блоковый елемент, тоже самое что и верхний пример*/
+ margin-bottom: 66px;
+ &:hover
+ &:focus{
+    background-color:$text-color;
+   color: var(--white);
+ }
+   }
+   &__text{
+       font-family: 'Playfair Display', sans-serif;
+    color: $text-color;
+    font-size: 14px;
+    font-weight: 400;
+   }
+   &__list{
+         display:flex;
+    flex-wrap: wrap; /*переносит на другую строку*/
+    justify-content: space-between;
+    margin-bottom: 80px;
+   }
+   &__item{
+      width: 420px;
+    margin-bottom: 125px;
+    &:last-child{
+       margin-bottom: 0px
+    }
+   &:nth-child(7){
+    margin-bottom: 0px;
+   }
+   &__img{
+         display: block;
+    width: 420px;
+    margin-bottom: 62px;
+   }
+}
+}
+
+
