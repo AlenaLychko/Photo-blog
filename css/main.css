@@ -1,12 +1,5 @@
 @charset "UTF-8";
 :root {
-  --text-color:#626262;
-  --pre-title-color:#b4ad9e;
-  --axent:#03a9f4;
-  --white:#fff;
-}
-
-:root {
   --text-color: #626262;
   --pre-title-color: #b4ad9e;
   --axent: #03a9f4;
@@ -50,13 +43,13 @@ body {
 }
 
 .navigation-link {
-  color: var(--text-color);
+  color: #626262;
   text-transform: uppercase;
 }
 
 .navigation-link:hover,
 .navigation-link:focus {
-  color: var(--axent);
+  color: #03a9f4;
 }
 
 .navigation-list {
@@ -76,7 +69,7 @@ body {
   font-family: "ubuntu", sans-serif;
   line-height: 1.2;
   font-weight: 300;
-  color: var(--pre-title-color);
+  color: #b4ad9e;
 }
 
 header {
@@ -102,7 +95,7 @@ header {
 .btn {
   background-color: transparent;
   font-size: 14px;
-  border: 1px solid var(--text-color);
+  border: 1px solid #626262;
   padding: 20px 48px; /* 20-веръний=нижний  48=левый=правый*/
   display: block;
   margin-right: auto;
@@ -113,13 +106,13 @@ header {
 
 .btn:hover,
 .btn:focus {
-  background-color: var(--text-color);
+  background-color: #626262;
   color: var(--white);
 }
 
 .main-text {
   font-family: "Playfair Display", sans-serif;
-  color: var(--text-color);
+  color: #626262;
   font-size: 14px;
   font-weight: 400;
 }

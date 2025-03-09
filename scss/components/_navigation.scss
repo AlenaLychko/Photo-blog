@@ -1,10 +1,10 @@
 .navigation-link {
-  color: var(--text-color);
+  color: $text-color;
   text-transform: uppercase;
 }
 .navigation-link:hover,
 .navigation-link:focus {
-  color: var(--axent);
+  color: $axent;
 }
 .navigation-list {
   display: flex;
