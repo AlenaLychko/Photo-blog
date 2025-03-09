@@ -79,7 +79,7 @@ header {
   color: #b4ad9e;
   margin-bottom: 32px;
 }
-.main__btn {
+.main__btn__load {
   background-color: transparent;
   font-size: 14px;
   border: 1px solid #626262;
@@ -90,7 +90,7 @@ header {
   /*margin: 0 auto; центрует блоковый елемент, тоже самое что и верхний пример*/
   margin-bottom: 66px;
 }
-.main__btn:hover .main__btn:focus {
+.main__btn__load:hover .main__btn__load:focus {
   background-color: #626262;
   color: var(--white);
 }
