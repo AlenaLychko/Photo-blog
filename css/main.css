@@ -1,4 +1,38 @@
 @charset "UTF-8";
+.main__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button--axent {
+  background-color: green;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+}
+
+/*.button{
+    position: relative;
+    z-index: 100;
+    display: block;
+    padding: 28px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background-color: transparent;
+}
+.button--axent{
+    @extend .button;
+background-color: yellow;
+}
+
+.button--base{
+    @extend .button;
+    background-color: aqua;
+}*/
 a {
   text-decoration: none;
 }
@@ -101,10 +135,7 @@ header {
   font-weight: 400;
 }
 .main__list {
-  display: flex;
   flex-wrap: wrap; /*переносит на другую строку*/
-  justify-content: space-between;
-  margin-bottom: 80px;
 }
 .main__item {
   width: 420px;

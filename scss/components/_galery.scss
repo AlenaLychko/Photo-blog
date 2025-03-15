@@ -37,10 +37,9 @@
     font-weight: 400;
    }
    &__list{
-         display:flex;
+         @extend %flex;
     flex-wrap: wrap; /*переносит на другую строку*/
-    justify-content: space-between;
-    margin-bottom: 80px;
+ 
    }
    &__item{
       width: 420px;
